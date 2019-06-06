@@ -10,12 +10,13 @@
 - Location updates only occur at an interval minimum 1 second and 100 meters
 - No tests have been written
 
-## Run the app
+## Instructions to run the app
 
-- Unzip
+- clone this repository: `git clone git@github.com:femiveys/sentiance.git`
 - `cd sentiance`
 - Edit `src/constants.js` and enter your `API_KEY` for https://opencagedata.com/api
 - Edit `android/app/src/main/AndroidManifest.xml` and enter the value for `com.google.android.geo.API_KEY`
 - Attach an Android device
+- `yarn install`
 - `yarn start`
 - Simulate a trajectory with Lockito
