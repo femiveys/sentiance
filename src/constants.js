@@ -3,7 +3,7 @@
 import { LOCALE } from './consts';
 
 // Edit the key below
-export const API_KEY = '651899cf9c5d4e4284ce396543a43eb8';
+export const API_KEY = 'PUT_KEY_HERE';
 
 export const IETF_LANGUAGE = LOCALE.replace('_', '-');
 
